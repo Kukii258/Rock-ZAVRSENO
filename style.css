@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Rocher';
+    src: url(https://assets.codepen.io/9632/RocherColorGX.woff2);
+  }
+
+body{
+    background-color: aquamarine;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.title{
+    background-color: #E14D2A;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex: 1 1 1;
+    align-items: center;
+    justify-content: center;
+    font-family: 'CARTOON FREE', sans-serif;
+    font-size: 60px;                                      
+}
+
+.computer{
+    background-color: #FD841F;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Rocher';
+    font-size: 50px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    gap: 30px;
+}
+
+.results{
+    background-color: #42032C;
+    width: 100%;
+    font-family: 'Rocher';
+    font-size: 30px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.playerPick{
+    background-color: #FD841F;
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Rocher';
+    font-size: 50px;
+    padding-top: 50px;
+    gap: 30px;
+    padding-bottom: 20px;
+}
+.playerImg, .computerImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.player{
+    background-color: #E14D2A;
+    width: 100%;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Rocher';
+    font-size: 50px;
+}
+
+.rock, .paper, .skare{
+    padding: 20px;
+    cursor: pointer;
+}
+
+.no{
+    display: none;
+}
+
+.Cimg, .Pimg{
+    width: 30%;
+    object-fit: contain;
+    aspect-ratio: 3/2;
+    mix-blend-mode: color-burn;
+}
+.Qimg {
+    width: 258px;
+    object-fit: contain;
+    aspect-ratio: 3/2;
+    mix-blend-mode: color-burn;
+}
